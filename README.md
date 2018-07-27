@@ -31,6 +31,8 @@ As of now, the following cameras have at least some minimal support:
 
 Reolink
 -------
+This is really more of a proof-of-concept to talk to the camera, at this point.
+
 This camera requires a login token to call other APIs.  To acquire a token:
 
 
@@ -46,4 +48,3 @@ To perform a command:
 e.g.:
 
     ./reolink -ip 192.168.1.50 -username admin -token 7eaeac2a9af55fb -cmd set-daynight -data night
-

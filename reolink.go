@@ -165,6 +165,9 @@ func main() {
         fmt.Println(*token)
     }
 
+
+    // TODO: Factor the cmds into something more scaleable (e.g. table lookup.
+    //       Right now, just initial PoC for talking to the camera.
     switch *cmd {
     // no-op, currently happens by default if no token specified
     case "get-token":
