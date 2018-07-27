@@ -48,3 +48,7 @@ To perform a command:
 e.g.:
 
     ./reolink -ip 192.168.1.50 -username admin -token 7eaeac2a9af55fb -cmd set-daynight -data night
+
+You can also grab a token and send a command at once, if you don't have a token yet:
+
+    ./reolink -ip 192.168.1.50 -username admin -password mypassword -cmd set-daynight -data night
